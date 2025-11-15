@@ -1,5 +1,5 @@
 {
-	"name": "Bomb",
+	"name": "Debugger",
 	"plugin-id": "Sprite",
 	"sid": 867277538647012,
 	"isGlobal": false,
@@ -51,7 +51,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 14,
+						"imageSpriteId": 1045750,
 						"collisionPoly": {
 							"points": [
 								0.25,

@@ -293,7 +293,7 @@
 									"objectClass": "System",
 									"sid": 675346962469165,
 									"parameters": {
-										"first-value": "Bomb.Count",
+										"first-value": "Debugger.Count",
 										"comparison": 0,
 										"second-value": "0"
 									}
@@ -305,7 +305,7 @@
 									"objectClass": "Player",
 									"sid": 505327075240383,
 									"parameters": {
-										"object": "Bomb",
+										"object": "Debugger",
 										"layer": "\"Ground\"",
 										"image-point": "0",
 										"create-hierarchy": false,
@@ -318,7 +318,7 @@
 								},
 								{
 									"id": "flash",
-									"objectClass": "Bomb",
+									"objectClass": "Debugger",
 									"sid": 825708082627937,
 									"behaviorType": "Flash",
 									"parameters": {
@@ -329,7 +329,7 @@
 								},
 								{
 									"id": "start-timer",
-									"objectClass": "Bomb",
+									"objectClass": "Debugger",
 									"sid": 684112762174166,
 									"behaviorType": "Timer",
 									"parameters": {
@@ -353,7 +353,7 @@
 					"conditions": [
 						{
 							"id": "on-timer",
-							"objectClass": "Bomb",
+							"objectClass": "Debugger",
 							"sid": 624983941695581,
 							"behaviorType": "Timer",
 							"parameters": {
@@ -373,8 +373,8 @@
 							"parameters": {
 								"object-to-create": "Flame",
 								"layer": "\"World\"",
-								"x": "Bomb.X",
-								"y": "Bomb.Y",
+								"x": "Debugger.X",
+								"y": "Debugger.Y",
 								"create-hierarchy": false,
 								"template-name": "\"\""
 							}
@@ -426,7 +426,7 @@
 											"callFunction": "GenerateFlames",
 											"sid": 550952864687228,
 											"parameters": [
-												"Bomb.Range",
+												"Debugger.Range",
 												"16",
 												"0"
 											]
@@ -457,7 +457,7 @@
 											"callFunction": "GenerateFlames",
 											"sid": 280107568305091,
 											"parameters": [
-												"Bomb.Range",
+												"Debugger.Range",
 												"0",
 												"16"
 											]
@@ -488,7 +488,7 @@
 											"callFunction": "GenerateFlames",
 											"sid": 303605211103776,
 											"parameters": [
-												"Bomb.Range",
+												"Debugger.Range",
 												"-16",
 												"0"
 											]
@@ -519,7 +519,7 @@
 											"callFunction": "GenerateFlames",
 											"sid": 733754986021376,
 											"parameters": [
-												"Bomb.Range",
+												"Debugger.Range",
 												"0",
 												"-16"
 											]
@@ -539,7 +539,7 @@
 							"actions": [
 								{
 									"id": "destroy",
-									"objectClass": "Bomb",
+									"objectClass": "Debugger",
 									"sid": 617746346151566
 								}
 							],
@@ -612,8 +612,8 @@
 									"parameters": {
 										"object-to-create": "Flame",
 										"layer": "\"World\"",
-										"x": "Bomb.X + XOffset * loopindex(\"range\")",
-										"y": "Bomb.Y + YOffset * loopindex(\"range\")",
+										"x": "Debugger.X + XOffset * loopindex(\"range\")",
+										"y": "Debugger.Y + YOffset * loopindex(\"range\")",
 										"create-hierarchy": false,
 										"template-name": "\"\""
 									}
@@ -729,7 +729,7 @@
 					"conditions": [
 						{
 							"id": "is-overlapping-another-object",
-							"objectClass": "Bomb",
+							"objectClass": "Debugger",
 							"sid": 450888612149145,
 							"parameters": {
 								"object": "Player"
@@ -738,7 +738,7 @@
 						},
 						{
 							"id": "is-overlapping-another-object",
-							"objectClass": "Bomb",
+							"objectClass": "Debugger",
 							"sid": 288036071189076,
 							"parameters": {
 								"object": "Enemy"
@@ -749,7 +749,7 @@
 					"actions": [
 						{
 							"id": "set-enabled",
-							"objectClass": "Bomb",
+							"objectClass": "Debugger",
 							"sid": 416968186284785,
 							"behaviorType": "Solid",
 							"parameters": {
@@ -821,7 +821,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Randomize the enemy moving direction once it's created and every 1 second, making it move in an unpredictable way."
+					"text": "Randomize the enemy moving direction once it's created and every 0.5 second, making it move in an unpredictable way."
 				},
 				{
 					"eventType": "block",
@@ -851,9 +851,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 876181914671099,
+							"sid": 976011253582149,
 							"parameters": {
-								"interval-seconds": "1.0"
+								"interval-seconds": "0.5"
 							}
 						}
 					],

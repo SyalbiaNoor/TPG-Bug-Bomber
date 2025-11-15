@@ -110,7 +110,7 @@
 		"items": [
 			"Wall",
 			"Player",
-			"Bomb",
+			"Debugger",
 			"Keyboard",
 			"BreakableWall",
 			"Ground",
