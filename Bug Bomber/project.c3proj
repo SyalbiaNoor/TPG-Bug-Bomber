@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -119,7 +126,8 @@
 			"Dust",
 			"Gamepad",
 			"TextFont",
-			"TextBackground"
+			"TextBackground",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -149,7 +157,152 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Beep.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 138842913250162,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Fail.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 408926613649778,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Health.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 490208416442468,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Hurt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 410545053335136,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Misc.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 809320851605734,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Ray.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 344486031106561,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Resurrect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 798725085001628,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Splash.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 887862275774058,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Step_Grass.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 828900658237894,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Switch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 756116448587016,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Touch.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 230116430387649,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Bomb.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 349434115132967,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_main_theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 320403474135137,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_zone1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 803421739003066,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_zone2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 753856005653124,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_zone3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 568268908134175,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_zone4.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 439612678441907,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_zone5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 415690478381977,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
