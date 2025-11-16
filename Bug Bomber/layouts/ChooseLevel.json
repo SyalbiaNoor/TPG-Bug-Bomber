@@ -56,7 +56,7 @@
 				{
 					"type": "TextFont",
 					"properties": {
-						"text": "Choose the Level",
+						"text": "Choose a Level",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,

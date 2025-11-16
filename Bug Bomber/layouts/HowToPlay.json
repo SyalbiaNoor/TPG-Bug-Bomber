@@ -209,13 +209,13 @@
 				{
 					"type": "TextFont",
 					"properties": {
-						"text": "1. Use the arrow keys to move around.\n2. Press \"Space Bar\" to drop a bomb.",
+						"text": "1. Use the arrow keys to move around.\n2. Press \"Space Bar\" to start debugging.",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
 						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 1.2,
+						"scale": 1.1,
 						"character-spacing": -2,
 						"line-height": 21,
 						"horizontal-alignment": "left",
@@ -250,7 +250,7 @@
 					"world": {
 						"x": 36.5008114060749,
 						"y": 49.31851484230393,
-						"width": 251.54820936639123,
+						"width": 248.79338842975216,
 						"height": 83.65289256198359,
 						"originX": 0,
 						"originY": 0,
