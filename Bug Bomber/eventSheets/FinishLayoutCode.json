@@ -1,0 +1,36 @@
+{
+	"name": "FinishLayoutCode",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 587778153134417
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 910647173995129,
+					"parameters": {
+						"seconds": "4.0",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 736726540562997,
+					"parameters": {
+						"layout": "TitlePage"
+					}
+				}
+			],
+			"sid": 625153464382896
+		}
+	],
+	"sid": 868859735001210
+}

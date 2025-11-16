@@ -1,17 +1,11 @@
 {
-	"name": "TextFont",
+	"name": "ButtonText",
 	"plugin-id": "Spritefont2",
-	"sid": 278645638598511,
+	"sid": 940206867242531,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Fade",
-			"name": "Fade",
-			"sid": 320025742984123
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
 		"width": 1024,
@@ -22,7 +16,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 5766410,
+		"imageSpriteId": 8285996,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

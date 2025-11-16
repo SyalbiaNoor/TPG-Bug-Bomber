@@ -1172,6 +1172,32 @@
 					"sid": 561919137064740
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 639173337639379,
+					"parameters": {
+						"first-value": "Enemy.Count",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 141621885894582,
+					"parameters": {
+						"layout": "FinishLayout"
+					}
+				}
+			],
+			"sid": 819468273003078
 		}
 	],
 	"sid": 538764664856079
