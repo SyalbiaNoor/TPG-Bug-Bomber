@@ -1,5 +1,5 @@
 {
-	"name": "TitlePage",
+	"name": "HowToPlay",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -25,20 +25,20 @@
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
 					},
-					"uid": 184960,
-					"sid": 247327040225398,
+					"uid": 211377,
+					"sid": 240507344603288,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 247327040225398,
+						"sid": 240507344603288,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 0,
-						"y": 0,
+						"x": 0.02246816435663579,
+						"y": 0.030617048372673317,
 						"width": 320,
 						"height": 180,
 						"originX": 0,
@@ -54,52 +54,15 @@
 					}
 				},
 				{
-					"type": "ButtonBackground_Start",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 998522,
-					"sid": 130478126344963,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 130478126344963,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 241.61823914685647,
-						"y": 48.70325079246748,
-						"width": 98.15086807623322,
-						"height": 52.25913756286114,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "TextFont",
 					"properties": {
-						"text": "The Bug Hunter",
+						"text": "How to Play?",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
 						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 2.5,
+						"scale": 2.1,
 						"character-spacing": -2,
 						"line-height": 0,
 						"horizontal-alignment": "center",
@@ -109,8 +72,8 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 590300,
-					"sid": 598482384374993,
+					"uid": 712697,
+					"sid": 823992892859149,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -126,16 +89,16 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 598482384374993,
+						"sid": 823992892859149,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 16.966050417012482,
-						"y": 13.58390065916479,
-						"width": 133.1479209578445,
-						"height": 80.5447579846249,
+						"x": 75.06838745453464,
+						"y": 7.307285567456894,
+						"width": 169.64929836831286,
+						"height": 32.41486817735991,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -149,17 +112,112 @@
 					}
 				},
 				{
+					"type": "ButtonBackground_MainMenu",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 694552,
+					"sid": 546668972659930,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 546668972659930,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 159.43472285835543,
+						"y": 156.0676806321158,
+						"width": 154.32482068870536,
+						"height": 27.940941721763025,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TextBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 102441,
+					"sid": 210322204218906,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0,
+								"destroy": false,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 210322204218906,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 27.547477701149994,
+						"y": 39.67660677991282,
+						"width": 264.3746556473828,
+						"height": 98.80440771349879,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.7
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "TextFont",
 					"properties": {
-						"text": "5025221067 - \nSyalbia Noor R.\n5025221068 - \nAreta Athayayumna A.",
+						"text": "1. Use the arrow keys to move around.\n2. Press \"Space Bar\" to drop a bomb.",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
 						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 0.95,
-						"character-spacing": -1,
-						"line-height": -1,
+						"scale": 1.2,
+						"character-spacing": -2,
+						"line-height": 21,
 						"horizontal-alignment": "left",
 						"vertical-alignment": "center",
 						"wrapping": "word",
@@ -167,8 +225,8 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 691267,
-					"sid": 956124158203511,
+					"uid": 780798,
+					"sid": 775823617234085,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -184,16 +242,16 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 956124158203511,
+						"sid": 775823617234085,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 30.214209477265484,
-						"y": 106.82374942485797,
-						"width": 125.92265465315609,
-						"height": 64.50240889249653,
+						"x": 36.5008114060749,
+						"y": 49.31851484230393,
+						"width": 251.54820936639123,
+						"height": 83.65289256198359,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -207,53 +265,16 @@
 					}
 				},
 				{
-					"type": "ButtonBackground_Level",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 787954,
-					"sid": 197523858601136,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 197523858601136,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 242.71654266134058,
-						"y": 104.76594852856734,
-						"width": 82.910072,
-						"height": 37.582815,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "ButtonText",
 					"properties": {
-						"text": "Start",
+						"text": "Got it!",
 						"enable-bbcode": true,
 						"character-width": 11,
 						"character-height": 16,
 						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
 						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 1.8,
-						"character-spacing": -2,
+						"scale": 1.7,
+						"character-spacing": 3,
 						"line-height": 0,
 						"horizontal-alignment": "center",
 						"vertical-alignment": "center",
@@ -262,153 +283,22 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 497158,
-					"sid": 203704574925102,
+					"uid": 295270,
+					"sid": 493475828521276,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 203704574925102,
+						"sid": 493475828521276,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 206.39681906543962,
-						"y": 35.15649274316955,
-						"width": 70.74532799039937,
+						"x": 97.79565297276517,
+						"y": 143.67094547492417,
+						"width": 121.70951531822314,
 						"height": 24.90456269922403,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ButtonText",
-					"properties": {
-						"text": "Choose\nLevel",
-						"enable-bbcode": true,
-						"character-width": 11,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
-						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 1.2,
-						"character-spacing": -1,
-						"line-height": -5,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 901249,
-					"sid": 915668671843012,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 915668671843012,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 213.68635222443658,
-						"y": 87.19877215681298,
-						"width": 59.45584938932379,
-						"height": 36.194041300299574,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ButtonBackground_HowTo",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 245766,
-					"sid": 810555725838502,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 810555725838502,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 242.97015383483813,
-						"y": 146.94600607177762,
-						"width": 82.910072,
-						"height": 37.582815,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ButtonText",
-					"properties": {
-						"text": "How to Play",
-						"enable-bbcode": true,
-						"character-width": 11,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£<>%",
-						"spacing-data": "[[5,\" \"],[4,\"!'|\"],[5,\"`\"],[6,\"Iil1.,;:\\\"()[]\"],[7,\"j°\"],[8,\"ABCDEFGHJKLMNOPRSTUVWXYZabcdefghkmnopqrstuvwxyz023456789?-_#&\\\\/@+=*$£<>%\"],[9,\"Q~\"]]",
-						"scale": 1.2,
-						"character-spacing": -1,
-						"line-height": -5,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 621129,
-					"sid": 330533978743652,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 330533978743652,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 213.5623231240199,
-						"y": 129.10500802905008,
-						"width": 59.45584938932379,
-						"height": 36.194041300299574,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -422,7 +312,7 @@
 					}
 				}
 			],
-			"sid": 166064441923138,
+			"sid": 261061248992580,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -456,7 +346,7 @@
 		"items": [],
 		"subfolders": []
 	},
-	"sid": 929850777422796,
+	"sid": 965818867747404,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 320,

@@ -141,7 +141,11 @@
 			"Mouse",
 			"ButtonText",
 			"ButtonBackground_Next",
-			"ButtonBackground_MainMenu"
+			"ButtonBackground_MainMenu",
+			"ButtonBackground_HowTo",
+			"ButtonBackground_Level1",
+			"ButtonBackground_Level2",
+			"ButtonBackground_Level3"
 		],
 		"subfolders": []
 	},
@@ -157,7 +161,11 @@
 			"TitlePage",
 			"MainLevel",
 			"ObjectRepository",
-			"FinishLayout"
+			"FinishLayout",
+			"HowToPlay",
+			"ChooseLevel",
+			"MainLevel2",
+			"MainLevel3"
 		],
 		"subfolders": []
 	},
@@ -165,7 +173,9 @@
 		"items": [
 			"MainCode",
 			"FinishLayoutCode",
-			"TitlePageCode"
+			"TechnicalCode",
+			"MainCode2",
+			"MainCode3"
 		],
 		"subfolders": []
 	},
