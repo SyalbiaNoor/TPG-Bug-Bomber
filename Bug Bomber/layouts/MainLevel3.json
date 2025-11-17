@@ -272,8 +272,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 240,
-						"y": 56,
+						"x": 271.8929421135944,
+						"y": 39.88204545898843,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -321,8 +321,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 112,
-						"y": 152,
+						"x": 80.45003204989523,
+						"y": 150.97119263050564,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -370,8 +370,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 48,
-						"y": 56,
+						"x": 48.342959773367824,
+						"y": 24.107047093814224,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -766,7 +766,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 128,
+						"x": 176,
 						"y": 152,
 						"width": 16,
 						"height": 16,
@@ -899,7 +899,7 @@
 					"locked": false,
 					"world": {
 						"x": 16,
-						"y": 104,
+						"y": 120,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -1171,8 +1171,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 160,
-						"y": 120,
+						"x": 176.68689052750506,
+						"y": 119.97253226437367,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -1287,8 +1287,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 48.56447393005379,
-						"y": 112.56447393005377,
+						"x": 48.564474,
+						"y": 112,
 						"width": 224,
 						"height": 32,
 						"originX": 0,
@@ -1551,7 +1551,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 80,
+						"x": 48,
 						"y": 88,
 						"width": 16,
 						"height": 16,
@@ -2000,7 +2000,7 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 64,
+						"x": 80,
 						"y": 24,
 						"width": 16,
 						"height": 16,
@@ -2055,6 +2055,108 @@
 					"world": {
 						"x": 304,
 						"y": 152,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 520201,
+					"sid": 861097330435362,
+					"tags": "",
+					"instanceVariables": {
+						"Direction": 0
+					},
+					"behaviors": {
+						"TileMovement": {
+							"properties": {
+								"grid-width": 16,
+								"grid-height": 16,
+								"grid-offset-x": 0,
+								"grid-offset-y": 8,
+								"speed-x": 32,
+								"speed-y": 32,
+								"enabled": true,
+								"default-controls": false,
+								"isometric": false
+							}
+						}
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 16,
+						"y": 88,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 778952,
+					"sid": 673915725759865,
+					"tags": "",
+					"instanceVariables": {
+						"Direction": 0
+					},
+					"behaviors": {
+						"TileMovement": {
+							"properties": {
+								"grid-width": 16,
+								"grid-height": 16,
+								"grid-offset-x": 0,
+								"grid-offset-y": 8,
+								"speed-x": 32,
+								"speed-y": 32,
+								"enabled": true,
+								"default-controls": false,
+								"isometric": false
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 673915725759865,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 225.05214178226697,
+						"y": 87.74227349825998,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,

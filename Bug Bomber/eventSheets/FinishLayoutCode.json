@@ -33,6 +33,18 @@
 					"parameters": {
 						"layout": "TitlePage"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 409804817887185,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 940341645113031
@@ -76,6 +88,18 @@
 							"parameters": {
 								"layout": "MainLevel2"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 165693017797932,
+							"parameters": {
+								"audio-file": "Start",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 696071180481010
@@ -101,6 +125,18 @@
 							"sid": 292043922839009,
 							"parameters": {
 								"layout": "MainLevel3"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 960256265862109,
+							"parameters": {
+								"audio-file": "Start",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -178,6 +214,82 @@
 						}
 					],
 					"sid": 551996922582809
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 309726329032627
+				}
+			],
+			"actions": [],
+			"sid": 672587950869185,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 944839372810390,
+							"parameters": {
+								"tag": "\"Music\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 927262426785560,
+							"parameters": {
+								"audio-file": "bgm_Finish",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"Music\""
+							}
+						}
+					],
+					"sid": 214963796319600
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 103087831893457
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 302126297286895,
+							"parameters": {
+								"tag": "\"Music\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 812141314880564,
+							"parameters": {
+								"audio-file": "bgm_Finish",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"Music\""
+							}
+						}
+					],
+					"sid": 363520291293272
 				}
 			]
 		}

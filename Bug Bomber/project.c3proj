@@ -195,46 +195,6 @@
 					}
 				},
 				{
-					"name": "Fail.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 408926613649778,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Health.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 490208416442468,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Hurt.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 410545053335136,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Misc.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 809320851605734,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Ray.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 344486031106561,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "Resurrect.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 798725085001628,
@@ -243,15 +203,7 @@
 					}
 				},
 				{
-					"name": "Splash.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 887862275774058,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Step_Grass.webm",
+					"name": "Step.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 828900658237894,
 					"file-info": {
@@ -267,14 +219,6 @@
 					}
 				},
 				{
-					"name": "Touch.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 230116430387649,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
 					"name": "Bomb.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 349434115132967,
@@ -283,7 +227,7 @@
 					}
 				},
 				{
-					"name": "bgm_main_theme.webm",
+					"name": "bgm_Main.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 320403474135137,
 					"file-info": {
@@ -291,7 +235,7 @@
 					}
 				},
 				{
-					"name": "bgm_zone1.webm",
+					"name": "bgm_1.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 803421739003066,
 					"file-info": {
@@ -299,7 +243,7 @@
 					}
 				},
 				{
-					"name": "bgm_zone2.webm",
+					"name": "bgm_2.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 753856005653124,
 					"file-info": {
@@ -307,7 +251,7 @@
 					}
 				},
 				{
-					"name": "bgm_zone3.webm",
+					"name": "bgm_3.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 568268908134175,
 					"file-info": {
@@ -315,17 +259,41 @@
 					}
 				},
 				{
-					"name": "bgm_zone4.webm",
+					"name": "Failed.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 439612678441907,
+					"sid": 988907978101409,
 					"file-info": {
 						"purpose": "none"
 					}
 				},
 				{
-					"name": "bgm_zone5.webm",
+					"name": "Win.webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 415690478381977,
+					"sid": 941682486317688,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Bug.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 933089414371471,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Start.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 441952643650912,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "bgm_Finish.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 526818292951809,
 					"file-info": {
 						"purpose": "none"
 					}
