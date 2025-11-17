@@ -1308,6 +1308,18 @@
 					"parameters": {
 						"variable": "Paused"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 618763839721512,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 738132729058685
@@ -1334,6 +1346,18 @@
 					"parameters": {
 						"variable": "Paused",
 						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 829001384011688,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1467,6 +1491,18 @@
 						"variable": "Paused",
 						"value": "false"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 699533728759336,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 230789665301435
@@ -1501,6 +1537,18 @@
 					"parameters": {
 						"variable": "Paused",
 						"value": "false"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 762439811896093,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
