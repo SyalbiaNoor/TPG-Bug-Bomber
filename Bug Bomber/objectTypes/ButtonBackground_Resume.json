@@ -1,7 +1,7 @@
 {
-	"name": "ButtonBackground_Start",
+	"name": "ButtonBackground_Resume",
 	"plugin-id": "Sprite",
-	"sid": 110920729997086,
+	"sid": 439575811676446,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6868677,
+						"imageSpriteId": 1423470,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 557717042420918,
+				"sid": 946002297590174,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

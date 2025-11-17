@@ -1277,6 +1277,234 @@
 					"sid": 406434884767763
 				}
 			]
+		},
+		{
+			"eventType": "variable",
+			"name": "Paused",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 683192967263823
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 250962384827846,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 987224322590788,
+					"parameters": {
+						"variable": "Paused"
+					}
+				}
+			],
+			"sid": 241035020872164
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 606433450537435,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonPause"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 748114847661417,
+					"parameters": {
+						"variable": "Paused",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 882093371295249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 567067643922399,
+					"parameters": {
+						"variable": "Paused"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 737240796241470,
+					"parameters": {
+						"layer": "\"HUD\"",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 969044452909940,
+					"parameters": {
+						"group-name": "\"BasicMovement\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 813610227048824,
+					"parameters": {
+						"group-name": "\"EnemyAI\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 336386940408519,
+					"parameters": {
+						"group-name": "\"Player\"",
+						"state": "deactivated"
+					}
+				}
+			],
+			"sid": 178030914139416
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 612044158376446,
+					"parameters": {
+						"variable": "Paused"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 146600685658614,
+					"parameters": {
+						"layer": "\"HUD\"",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 792407574683093,
+					"parameters": {
+						"group-name": "\"BasicMovement\"",
+						"state": "activated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 736782165137023,
+					"parameters": {
+						"group-name": "\"EnemyAI\"",
+						"state": "activated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 471550978576952,
+					"parameters": {
+						"group-name": "\"Player\"",
+						"state": "activated"
+					}
+				}
+			],
+			"sid": 524609379609312
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 790949818186519,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonBackground_Resume"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 704385161938884,
+					"parameters": {
+						"variable": "Paused",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 218662257806073
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 262627089229255,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonBackground_Menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 382559787980034,
+					"parameters": {
+						"layout": "TitlePage"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 777659536305740,
+					"parameters": {
+						"variable": "Paused",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 992493112588812
 		}
 	],
 	"sid": 538764664856079

@@ -1,7 +1,7 @@
 {
-	"name": "ButtonBackground_Start",
+	"name": "ButtonBackground_Menu",
 	"plugin-id": "Sprite",
-	"sid": 110920729997086,
+	"sid": 341521822326544,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6868677,
+						"imageSpriteId": 1489577,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 557717042420918,
+				"sid": 877219308261362,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
