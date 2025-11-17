@@ -161,7 +161,9 @@
 			"MainMenu",
 			"Sprite2",
 			"ButtonPause",
-			"ButtonBackground_Pause2"
+			"ButtonBackground_Pause2",
+			"ButtonPause2",
+			"Sprite"
 		],
 		"subfolders": []
 	},

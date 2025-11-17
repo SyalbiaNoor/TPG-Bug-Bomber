@@ -1277,6 +1277,282 @@
 					"sid": 947589201969503
 				}
 			]
+		},
+		{
+			"eventType": "variable",
+			"name": "Paused3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 998848041740021
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 763987426717373,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 937962469225752,
+					"parameters": {
+						"variable": "Paused"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 618763839721512,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 738132729058685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 429403940236902,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonPause"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 486903615544642,
+					"parameters": {
+						"variable": "Paused",
+						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 829001384011688,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 694601234234572
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 467477953271109,
+					"parameters": {
+						"variable": "Paused"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 289496865043217,
+					"parameters": {
+						"layer": "\"HUD\"",
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 900165790162804,
+					"parameters": {
+						"group-name": "\"BasicMovement3\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 680385104358222,
+					"parameters": {
+						"group-name": "\"EnemyAI3\"",
+						"state": "deactivated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 224539972016236,
+					"parameters": {
+						"group-name": "\"Player3\"",
+						"state": "deactivated"
+					}
+				}
+			],
+			"sid": 681696187194800
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 927180697781324,
+					"parameters": {
+						"variable": "Paused"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-visible",
+					"objectClass": "System",
+					"sid": 212675469459231,
+					"parameters": {
+						"layer": "\"HUD\"",
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 188336771954716,
+					"parameters": {
+						"group-name": "\"BasicMovement3\"",
+						"state": "activated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 168256428154423,
+					"parameters": {
+						"group-name": "\"EnemyAI3\"",
+						"state": "activated"
+					}
+				},
+				{
+					"id": "set-group-active",
+					"objectClass": "System",
+					"sid": 440751788874756,
+					"parameters": {
+						"group-name": "\"Player3\"",
+						"state": "activated"
+					}
+				}
+			],
+			"sid": 891544116799527
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 931528659140244,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonBackground_Resume"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 358941044432699,
+					"parameters": {
+						"variable": "Paused",
+						"value": "false"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 699533728759336,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 230789665301435
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 890388614423337,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ButtonBackground_Menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 267205667338690,
+					"parameters": {
+						"layout": "TitlePage"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 949157079320989,
+					"parameters": {
+						"variable": "Paused",
+						"value": "false"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 762439811896093,
+					"parameters": {
+						"audio-file": "Switch",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 280555855808448
 		}
 	],
 	"sid": 929495496387851

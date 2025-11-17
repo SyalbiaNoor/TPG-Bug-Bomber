@@ -135,7 +135,7 @@
 						"tile-y-spacing": 0
 					},
 					"showing": true,
-					"locked": false,
+					"locked": true,
 					"world": {
 						"x": -8,
 						"y": 0,
